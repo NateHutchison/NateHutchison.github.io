@@ -844,13 +844,14 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
+    
   }
 }
 
@@ -1071,6 +1072,7 @@ a:hover {
 .testimonial-box {
   color: #fff;
   text-align: center;
+  padding: 0 1.4rem; 
 }
 
 .testimonial-box .author-test {
@@ -1079,6 +1081,9 @@ a:hover {
 
 .testimonial-box .author-test img {
   margin: 0 auto;
+  max-width: 80%;
+    min-width: 100px;
+    height: auto;
 }
 
 .testimonial-box .author {
@@ -1096,7 +1101,7 @@ a:hover {
   background-color: #fff;
   width: 52px;
   height: 52px;
-  display: block;
+  display: flex;
   margin: 0 auto;
   border-radius: 50%;
   line-height: 1.6;
@@ -1105,6 +1110,7 @@ a:hover {
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
+    
   }
 }
 
