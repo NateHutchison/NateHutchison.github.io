@@ -130,7 +130,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -148,7 +148,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -231,4 +231,59 @@
    */
   new PureCounter();
 
+  /*progress bar*/
+  setTimeout(function(){
+
+  $(function progressbar() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 1;
+        $("#dynamic1")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress)
+       /* .text(current_progress + "% Complete"); */
+        if (current_progress >= 100)
+            clearInterval(interval);
+    }, 50);
+  }); 
+
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 1;
+        $("#dynamic2")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress)
+       /* .text(current_progress + "% Complete"); */
+        if (current_progress >= 100)
+            clearInterval(interval);
+    }, 40);
+  }); 
+
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 1;
+        $("#dynamic3")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress)
+       /* .text(current_progress + "% Complete"); */
+        if (current_progress >= 100)
+            clearInterval(interval);
+    }, 30);
+  }); 
+
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 1;
+        $("#dynamic4")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress)
+       /* .text(current_progress + "% Complete"); */
+        if (current_progress >= 100)
+            clearInterval(interval);
+    }, 20);
+  }); 
+  },4000);
 })()
