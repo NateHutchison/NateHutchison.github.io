@@ -177,20 +177,33 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.title-left {
+.title-left1 {
   font-size: 2rem;
   position: relative;
 }
 
-.title-left:before {
+.title-left1:before {
   content: "";
   position: absolute;
   height: 3px;
   background-color: #0078ff;
-  width: 100px;
+  width: 95px;
   bottom: -12px;
 }
 
+.title-left2 {
+  font-size: 2rem;
+  position: relative;
+}
+
+.title-left2:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 170px;
+  bottom: -12px;
+}
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -212,31 +225,42 @@ a:hover {
 }
 
 /*------/ Socials /------*/
+/* 
 .socials {
   padding: 1.5rem 0;
+  color: #fff;
 }
 
 .socials ul li {
   display: inline-block;
+  font-size: 30px;
+  color: #fff;
 }
+.socials a {
+  padding: 20px;
+  padding-top: 35%;
+    color: white;
+}
+ */
 
-.socials .ico-circle {
+
+/* .socials .ico-circle {
   height: 40px;
   width: 40px;
   font-size: 1.2rem;
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #fff;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #ffffff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
-}
+} */
 
 /*------/ Ul resect /------*/
 .ul-resect,
@@ -513,6 +537,7 @@ a:hover {
   padding: 10px 0 10px 30px;
 }
 
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -553,7 +578,7 @@ a:hover {
 .navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
-  width: 80%;
+  width: 100%;
 }
 
 .navbar a:hover,
