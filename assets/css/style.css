@@ -1337,7 +1337,9 @@ a:hover {
   float: right;
 }
 
-
+.sect-pt4 .col-md-4, h3 {
+margin-top: 20px;
+}
 
 /*--------------------------------------------------------------
 # Blog Single
