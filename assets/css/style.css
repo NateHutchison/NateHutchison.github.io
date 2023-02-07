@@ -129,6 +129,10 @@ a:hover {
 }
 
 /*--/ Sections /--*/
+#services {
+  padding-bottom: 90px;
+}
+
 .sect-4 {
   padding: 4rem 0;
 }
@@ -167,6 +171,13 @@ a:hover {
 
 .line-mf {
   width: 120px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
+#servicesline {
+  width: 215px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
