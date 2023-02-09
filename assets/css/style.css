@@ -170,7 +170,7 @@ a:hover {
 }
 
 .line-mf {
-  width: 120px;
+  width: 220px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
@@ -906,6 +906,31 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
   background-color: #0078ff;
+
+}
+#externallinks .btn-outline-danger {
+  outline: none !important;
+  box-shadow: none !important;
+} 
+
+#resume {
+  color: black;
+}
+
+#resume .bi-file-pdf {
+  color: red;
+}
+
+#linkedin {
+  color: black;
+}
+
+#linkedin .bi-linkedin {
+  color: blue;
+}
+
+#github {
+  color: black;
 }
 
 /*--------------------------------------------------------------
