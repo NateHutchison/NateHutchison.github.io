@@ -24,6 +24,14 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Cal element-click embed code begins -->
+  <script id="calbutton" type="text/javascript">
+    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+     Cal("init", { origin: "https://app.cal.com" });
+     Cal("ui", { "styles": { "branding": { "brandColor": "#0078ff" } }, "hideEventTypeDetails": false });
+   </script>
+   <!-- Cal element-click embed code ends -->
+
 </head>
 
 <body>
@@ -96,12 +104,12 @@
       <div class="row">
         <div class="col-md-4">
 
-          <div class="service-box">
+          <div class="service-box" data-cal-link="nateh/value-based" role="button">
 
             <div class="service-ico">
               <span class="ico-circle"><i class="bi bi-cloud"></i></span>
             </div>
-            <div class="service-content">
+            <div class="service-content"  data-cal-link="nateh/value-based" role="button">
               <h2 class="s-title">Custom Azure Solutions</h2>
               <p class="s-description text-center">
                 Discover the Benefits of Customized Azure Solutions. I'll work with you to create a tailored solution
@@ -110,27 +118,19 @@
               </p><br>
 
 
-              <!-- Cal element-click embed code begins -->
-              <script id="calbutton" type="text/javascript">
-               (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-                Cal("init", { origin: "https://app.cal.com" });
-                Cal("ui", { "styles": { "branding": { "brandColor": "#0078ff" } }, "hideEventTypeDetails": false });
-              </script>
-              <!-- Cal element-click embed code ends -->
-
-              <h3><a class="btn btn-danger" a data-cal-link="nateh/15min" role="button" script="calbutton"><b><span
-                      class="bi bi-calendar2"></span> Book Today</b></a></h3>
+              <h3><a class="btn btn-danger btn-lg" data-cal-link="nateh/value-based" role="button"><b data-cal-link="nateh/value-based" role="button">
+                <span class="bi bi-calendar2"  data-cal-link="nateh/value-based" role="button"></span> Book Today</b></a></h3>
              
 
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box" data-cal-link="nateh/strategize" role="button">
             <div class="service-ico">
               <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
             </div>
-            <div class="service-content">
+            <div class="service-content" data-cal-link="nateh/strategize" role="button">
               <h2 class="s-title">Private Strategy Call</h2>
               <p class="s-description text-center">
                 Need some quick feedback or an outside perspective? Then book a private strategy call. It’s one hour,
@@ -140,26 +140,17 @@
             </div><br>
             
 
-            <h3><a class="btn btn-danger" a data-cal-link="nateh/strategize" role="button"><b><span
-                    class="bi bi-calendar2"></span> Book Today</b></a></h3>
-              <!-- Cal element-click embed code begins -->
-            <script type="text/javascript">
-              (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-              Cal("init", { origin: "https://app.cal.com" });
-              Cal("ui", { "styles": { "branding": { "brandColor": "#0078ff" } }, "hideEventTypeDetails": false });
-            </script>
-            <!-- Cal element-click embed code ends -->
-
-            </button>
-
+            <h3><a class="btn btn-danger btn-lg" data-cal-link="nateh/strategize" role="button"><b data-cal-link="nateh/strategize" role="button"><span
+                    class="bi bi-calendar2" data-cal-link="nateh/strategize" role="button"></span> Book Today</b></a></h3>
+             
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service-box">
+          <div class="service-box" data-cal-link="nateh/advisory-retainer" role="button">
             <div class="service-ico">
               <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
             </div>
-            <div class="service-content">
+            <div class="service-content" data-cal-link="nateh/advisory-retainer" role="button">
               <h2 class="s-title">Advisory Retainer</h2>
               <p class="s-description text-center">
                 Are you a expert firm facing a serious transition with no clear direction? We’ll navigate this together.
@@ -168,18 +159,13 @@
                 business expertise that you need, when you need it.
               </p>
             </div><br>
-            <!-- Cal element-click embed code begins -->
-            <script type="text/javascript">
-              (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-              Cal("init", { origin: "https://app.cal.com" });
-              Cal("ui", { "styles": { "branding": { "brandColor": "#0078ff" } }, "hideEventTypeDetails": false });
-            </script>
-            <!-- Cal element-click embed code ends -->
-
-            <h3><a class="btn btn-danger" a data-cal-link="nateh/advisory-retainer" role="button"><b><span
-                    class="bi bi-calendar2"></span> Book Today</b></a></h3>
-            </button>
-
+            
+            <h3 data-cal-link="nateh/advisory-retainer" role="button">
+              <a class="btn btn-danger btn-lg" data-cal-link="nateh/advisory-retainer" role="button"><b data-cal-link="nateh/advisory-retainer" role="button"><span
+                    class="bi bi-calendar2" data-cal-link="nateh/advisory-retainer" role="button"></span> Book Today</b>
+                  </a>
+            </h3>
+           
           </div>
         </div>
       </div>
