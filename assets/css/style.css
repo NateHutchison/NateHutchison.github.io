@@ -916,6 +916,7 @@ a:hover {
   box-shadow: none !important;
 } 
 
+
 #resume {
   color: black;
 }
@@ -1327,6 +1328,7 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+  /* margin-bottom: -15px; */
 }
 
 .card-blog .card-category-box {
