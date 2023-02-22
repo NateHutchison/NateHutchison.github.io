@@ -313,7 +313,7 @@ var siteOwlCarousel = function() {
     center: true,
     items: 6,
     loop: true,
-    margin: 0,
+    margin: 10,
     slideTransition: 'linear',
     rewindNav:false,
     autoplay: true,
@@ -336,7 +336,7 @@ var siteOwlCarousel = function() {
         items: 4
       },
       1200 : {
-        items: 8
+        items:6
       }
     }
   });
