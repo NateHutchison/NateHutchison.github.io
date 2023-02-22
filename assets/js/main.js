@@ -1,9 +1,4 @@
-/**
-* Template Name: DevFolio - v4.8.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -226,6 +221,7 @@
     });
   }
 
+
   /**
    * Initiate Pure Counter 
    */
@@ -273,6 +269,29 @@
     }, 30);
   }); 
 
+  $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
   $(function() {
     var current_progress = 0;
     var interval = setInterval(function() {
@@ -287,3 +306,76 @@
   }); 
   },4000);
 })()
+
+/* Tools slider */
+var siteOwlCarousel = function() {
+  $('.clients-carousel').owlCarousel({
+    center: true,
+    items: 6,
+    loop: true,
+    margin: 0,
+    slideTransition: 'linear',
+    rewindNav:false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 3000,
+    nav: true,
+    dots: false,
+    autoWidth: true,
+    responsive: {
+      0 : {
+        items: 2
+      },
+      576 : {
+        items: 3
+      },
+      768 : {
+        items: 4
+      },
+      992 : {
+        items: 4
+      },
+      1200 : {
+        items: 6
+      }
+    }
+  });
+};
+siteOwlCarousel();
+
+
+/*     jQuery(document).ready(function() {
+        var $carousel2 = jQuery('.owl-carousel.slideshow');
+        $carousel2.owlCarousel({
+            loop: true,
+            items: 4,
+            autoplay: true,
+           
+            smartSpeed: 3500,
+            autoplayHoverPause: false,
+            margin: 0,
+            center: true,
+            nav: false,
+            dots: false,
+            autowidth: true,
+            responsive: {
+              0 : {
+                items: 2
+              },
+              576 : {
+                items: 3
+              },
+              768 : {
+                items: 4
+              },
+              992 : {
+                items: 4
+              },
+              1200 : {
+                items: 6
+              }
+            },
+        });
+
+       
+    }); */
