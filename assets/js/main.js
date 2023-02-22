@@ -319,7 +319,7 @@ var siteOwlCarousel = function() {
     autoplay: true,
     autoplayTimeout: 3000,
     autoplaySpeed: 3000,
-    nav: true,
+    nav: false,
     dots: false,
     autoWidth: true,
     responsive: {
