@@ -1,1 +1,7 @@
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 36" width="2292" height="2500"><style>.st0{fill:#000}</style><g id="logo_4_"><path class="st0" d="M20 26.7l5.4-3V3.2L20 0v15.3h-6.9v-6l-5.5 3v20.5l5.5 3.2V20.7H20z"/><path class="st0" d="M28 4.6v20.8l-8 4.4V36l13-7.5v-21zM13.1 0L0 7.5v21l5.1 2.9V10.6l8-4.4z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400px" height="px" viewBox="0 0 400 436" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 242.417969 323.367188 L 307.863281 287.035156 L 307.863281 38.753906 L 242.417969 0 L 242.417969 185.300781 L 158.792969 185.300781 L 158.792969 112.632812 L 92.136719 148.964844 L 92.136719 397.246094 L 158.792969 436 L 158.792969 250.699219 L 242.417969 250.699219 Z M 242.417969 323.367188 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 339.375 55.710938 L 339.375 307.621094 L 242.417969 360.910156 L 242.417969 436 L 399.972656 345.167969 L 399.972656 90.832031 Z M 158.792969 0 L 0.0273438 90.832031 L 0.0273438 345.167969 L 61.839844 380.289062 L 61.839844 128.378906 L 158.792969 75.089844 Z M 158.792969 0 "/>
+</g>
+</svg>
