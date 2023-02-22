@@ -1219,23 +1219,23 @@ a:hover {
 # Tools/platforms
 --------------------------------------------------------------*/
 
-#tools .row .col-sm-12 {
+.row .col-sm-12 {
   overflow: hidden
 }
 
-#tools .owl-carousel .owl-wrapper {
+.owl-carousel .owl-wrapper {
   display: table!important;
 }
-#tools .owl-carousel .owl-item {
+.owl-carousel .owl-item {
   display: table-cell!important;
   float: none!important;
   vertical-align: middle!important;
 }
-#tools .clients-carousel .owl-item .item{
+.clients-carousel .owl-item .item{
   text-align: center!important;
   padding: 15px 30px!important;
 }
-#tools .clients-carousel .owl-item img{
+.clients-carousel .owl-item img{
   max-width: 180px!important;
   max-height: 50px!important;
   display: inline-block!important;

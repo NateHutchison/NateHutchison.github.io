@@ -322,7 +322,6 @@ var siteOwlCarousel = function() {
     nav: false,
     dots: false,
     autoWidth: true,
-    lazyload: true,
     responsive: {
       0 : {
         items: 2
@@ -337,7 +336,7 @@ var siteOwlCarousel = function() {
         items: 4
       },
       1200 : {
-        items: 6
+        items: 8
       }
     }
   });
