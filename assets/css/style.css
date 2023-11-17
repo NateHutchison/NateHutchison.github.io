@@ -531,10 +531,7 @@ a:hover {
   padding: 12px 0;
 }
 
- #header.services.fixed-top {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 12px 0;
-}
+ 
 
 
 /*--------------------------------------------------------------
@@ -957,6 +954,12 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#header .fixed-top.services {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 12px 0;
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
